@@ -12,11 +12,17 @@ export function About() {
     <Section>
       <S.About_Wrapper>
         <S.About_Heading_Wrapper>
-          <Heading
-            title="Sobre Mim"
-            description_one="Meu nome é Henrique Teixeira tenho 33 anos, nasci em Guarulhos - SP."
-            description_two="Venho de uma família nordestina, trabalhei dos 15 aos 31 anos como Técnico em Segurança Eletrônica."
-          />
+          <Heading title="Sobre Mim">
+            <p>
+              Meu nome é Henrique Teixeira tenho 33 anos, nasci em Guarulhos -
+              SP.
+            </p>
+
+            <p>
+              Venho de uma família nordestina, trabalhei dos 15 aos 31 anos como
+              Técnico em Segurança Eletrônica.
+            </p>
+          </Heading>
           <S.About_Heading_Links_Wrapper>
             <Links links={links} />
           </S.About_Heading_Links_Wrapper>

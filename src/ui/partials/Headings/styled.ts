@@ -46,6 +46,18 @@ export const Heading_Wrapper = styled.div`
       line-height: 150%;
       color: ${theme.colors.grey};
 
+      cite {
+        background-image: linear-gradient(
+          120deg,
+          ${theme.colors.green}a1,
+          ${theme.colors.green}a1
+        );
+        background-repeat: no-repeat;
+        background-size: 100% 0.4em;
+        background-position: 0px 88%;
+        color: ${theme.colors.white};
+      }
+
       @media (min-width: 800px) {
         padding-right: ${theme.spacings.xxxlarge};
       }

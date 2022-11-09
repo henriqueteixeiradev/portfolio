@@ -1,7 +1,6 @@
 export type HeadingTypes = {
   title: string;
-  description_one: string;
-  description_two?: string;
+  children: React.ReactNode;
 };
 
 export type HeadingProps = {
