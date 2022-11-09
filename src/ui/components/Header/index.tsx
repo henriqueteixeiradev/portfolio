@@ -31,9 +31,10 @@ export function Header() {
           </h1>
 
           <p>
-            Lorem ipsum, or lipsum as it is sometimes known, is dummy text used
-            in laying.
+            &quot;Seja você mesmo porque todos os outros já existem&quot; <br />
+            <cite>(Oscar Wilde)</cite>
           </p>
+
           <button onClick={() => handleClick("#jobs")}>
             <span>Jobs</span>
           </button>

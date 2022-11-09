@@ -46,6 +46,18 @@ export const Header_Texts_Wrapper = styled.div`
       color: ${theme.colors.grey};
       max-width: 95%;
       margin: 0 auto;
+
+      cite {
+        background-image: linear-gradient(
+          120deg,
+          ${theme.colors.green}a1,
+          ${theme.colors.green}a1
+        );
+        background-repeat: no-repeat;
+        background-size: 100% 0.4em;
+        background-position: 0px 88%;
+        color: ${theme.colors.white};
+      }
     }
 
     & > button {
