@@ -50,13 +50,14 @@ export const Technologies_TiltCard = styled.div`
     position: relative;
     width: 60%;
     margin: 0 auto;
+    transform: rotate3d(0, 0, 1, 15deg);
 
     .tilt {
       display: flex;
       justify-content: center;
       align-items: center;
       transition: all 0.6s ease-in-out;
-      transform: rotateX(0deg) rotateY(0deg);
+      transform: rotate3d(0, 0, 0, , 3.142rad);
 
       & > img {
         width: 100%;
@@ -73,8 +74,12 @@ export const Technologies_TiltCard = styled.div`
         left: 0;
         top: 0;
 
+        :hover {
+          border: 1px dashed red;
+        }
+
         :hover ~ .tilt {
-          transform: rotateX(-15deg) rotateY(15deg) scale(1.1);
+          transform: rotateX(-15deg) rotateY(15deg);
         }
       }
 
@@ -83,7 +88,7 @@ export const Technologies_TiltCard = styled.div`
         top: 0;
 
         :hover ~ .tilt {
-          transform: rotateX(-15deg) rotateY(0deg) scale(1.1);
+          transform: rotateX(0deg) rotateY(0deg);
         }
       }
 
@@ -92,7 +97,7 @@ export const Technologies_TiltCard = styled.div`
         top: 0;
 
         :hover ~ .tilt {
-          transform: rotateX(-15deg) rotateY(-15deg) scale(1.1);
+          transform: rotateX(-15deg) rotateY(-15deg);
         }
       }
 
@@ -101,7 +106,7 @@ export const Technologies_TiltCard = styled.div`
         top: 33.333%;
 
         :hover ~ .tilt {
-          transform: rotateX(0deg) rotateY(15deg) scale(1.1);
+          transform: rotateX(0deg) rotateY(15deg);
         }
       }
 
@@ -110,7 +115,7 @@ export const Technologies_TiltCard = styled.div`
         top: 33.333%;
 
         :hover ~ .tilt {
-          transform: rotateX(0deg) rotateY(0deg) scale(1.1);
+          transform: rotateX(0deg) rotateY(0deg);
         }
       }
 
@@ -119,7 +124,7 @@ export const Technologies_TiltCard = styled.div`
         top: 33.333%;
 
         :hover ~ .tilt {
-          transform: rotateX(0deg) rotateY(-15deg) scale(1.1);
+          transform: rotateX(0deg) rotateY(-15deg);
         }
       }
 
@@ -128,7 +133,7 @@ export const Technologies_TiltCard = styled.div`
         top: 66.666%;
 
         :hover ~ .tilt {
-          transform: rotateX(15deg) rotateY(15deg) scale(1.1);
+          transform: rotateX(15deg) rotateY(15deg);
         }
       }
 
@@ -137,7 +142,7 @@ export const Technologies_TiltCard = styled.div`
         top: 66.666%;
 
         :hover ~ .tilt {
-          transform: rotateX(15deg) rotateY(0deg) scale(1.1);
+          transform: rotateX(15deg) rotateY(0deg);
         }
       }
 
@@ -146,7 +151,7 @@ export const Technologies_TiltCard = styled.div`
         top: 66.666%;
 
         :hover ~ .tilt {
-          transform: rotateX(15deg) rotateY(-15deg) scale(1.1);
+          transform: rotateX(15deg) rotateY(-15deg);
         }
       }
     }
