@@ -37,7 +37,11 @@ export const Technologies_Image_Wrapper: any = styled.div`
     width: 100%;
     justify-content: center;
     align-items: center;
-    padding: ${theme.spacings.xlarge} 0;
+    padding-top: ${theme.spacings.xxlarge};
+
+    @media (min-width: 800px) {
+      padding-top: initial;
+    }
   `}
 `;
 
@@ -73,10 +77,6 @@ export const Technologies_TiltCard = styled.div`
       &:nth-child(1) {
         left: 0;
         top: 0;
-
-        :hover {
-          border: 1px dashed red;
-        }
 
         :hover ~ .tilt {
           transform: rotateX(-15deg) rotateY(15deg);

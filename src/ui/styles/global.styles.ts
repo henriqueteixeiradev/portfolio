@@ -26,6 +26,11 @@ const GlobalStyle = createGlobalStyle`
       cursor: pointer;
     }
 
+    a {
+      text-decoration: none;
+      color: ${theme.colors.texts};
+    }
+
     body {
       background-color: ${theme.colors.bg_color};
       color: ${theme.colors.texts};
