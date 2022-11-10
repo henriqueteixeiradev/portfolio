@@ -1,18 +1,11 @@
 import styled, { css, keyframes } from "styled-components";
 
 export const circuit = keyframes`
-      0%,5%,10.1%,25.1%,75.1%,98.1%
-      {
-        opacity: 1;
-      }
-      99.1%
-      {
-        opacity: 0.6;
-      }
-      100%
-      {
-        opacity: 1;
-      }
+  0% { opacity: 1; }
+  50% { opacity: 0.5; }
+  51% { opacity: 0; }
+  52% { opacity: 0.5; }
+  100% { opacity: 0; }
 `;
 
 export const Heading_Wrapper = styled.div`
@@ -37,7 +30,7 @@ export const Heading_Wrapper = styled.div`
         box-shadow: 0px 0px 177px 4px #14ffec, 0px 0px 14px 1px #14ffec,
           0px 0px 4px 1px #14ffec;
         border-radius: 8px;
-        animation: ${circuit} 8s linear infinite;
+        animation: ${circuit} 2s alternate infinite;
         margin-top: ${theme.spacings.xxsmall};
       }
     }

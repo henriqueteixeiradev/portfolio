@@ -4,6 +4,7 @@ import { Header } from "../ui/components/Header";
 import { About } from "ui/components/About";
 import { Technologies } from "ui/components/Technologies";
 import { Jobs } from "ui/components/Jobs";
+import { Footer } from "ui/components/Footer";
 
 const Home: NextPage = () => {
   return (
@@ -12,6 +13,7 @@ const Home: NextPage = () => {
       <About />
       <Technologies />
       <Jobs />
+      <Footer />
     </>
   );
 };

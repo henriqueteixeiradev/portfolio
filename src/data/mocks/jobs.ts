@@ -6,7 +6,7 @@ export const jobs: JobsTypes[] = [
     image: "https://i.imgur.com/wcFoSVz.jpeg",
     completion_date: "2021-01-01",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut aliquam tincidunt, nunc nisl aliquam mauris, eget aliquam nisl nunc et nisl. Sed euismod, nunc ut aliquam tincidunt, nunc nisl aliquam mauris, eget aliquam nisl nunc et nisl.",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing.",
     technologies: ["React", "TypeScript", "Styled Components", "Next.js"],
     url: "",
   },
@@ -24,7 +24,7 @@ export const jobs: JobsTypes[] = [
     image: "https://i.imgur.com/wcFoSVz.jpeg",
     completion_date: "2021-01-01",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut aliquam tincidunt, nunc nisl aliquam mauris, eget aliquam nisl nunc et nisl. Sed euismod, nunc ut aliquam tincidunt, nunc nisl aliquam mauris, eget aliquam nisl nunc et nisl.",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing.",
     technologies: ["React", "TypeScript", "Styled Components", "Next.js"],
     url: "",
   },
@@ -33,7 +33,7 @@ export const jobs: JobsTypes[] = [
     image: "https://i.imgur.com/wcFoSVz.jpeg",
     completion_date: "2021-01-01",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut aliquam tincidunt, nunc nisl aliquam mauris, eget aliquam nisl nunc et nisl. Sed euismod, nunc ut aliquam tincidunt, nunc nisl aliquam mauris, eget aliquam nisl nunc et nisl.",
+      "Nunc nisl aliquam mauris, eget aliquam nisl nunc et nisl. Sed euismod, nunc ut aliquam tincidunt, nunc nisl aliquam mauris, eget aliquam nisl nunc et nisl.",
     technologies: ["React", "TypeScript", "Styled Components", "Next.js"],
     url: "",
   },

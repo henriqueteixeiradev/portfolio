@@ -4,10 +4,20 @@ export const Job_Wrapper = styled.div`
   ${({ theme }) => css`
     display: flex;
     flex-direction: column;
-    gap: ${theme.spacings.small};
     padding-bottom: ${theme.spacings.small};
     background-color: ${theme.colors.dark_grey};
     border-radius: 0.8rem;
+
+    .border {
+      width: 100%;
+      height: 1.4rem;
+      background-color: ${theme.colors.green};
+      border-radius: 1rem 1rem 0 0;
+    }
+
+    :hover ${Job_Image_Wrapper} {
+      transform: translateY(-1rem);
+    }
   `}
 `;
 
@@ -17,13 +27,15 @@ export const Job_Image_Wrapper = styled.div`
     justify-content: center;
     align-items: center;
     width: 100%;
-    border-radius: 0.8rem;
+    border-radius: 0.8rem 0.8rem 0 0;
+    transform: translateY(-1.4rem);
+    transition: transform 0.3s ease-in-out;
 
     & > img {
       width: 100%;
       object-fit: cover;
       object-position: top;
-      border-radius: 0.8rem;
+      border-radius: 0.8rem 0.8rem 0 0;
     }
   `}
 `;
@@ -35,6 +47,7 @@ export const Job_Status_Wrapper = styled.div`
     width: 100%;
     padding: 0 ${theme.spacings.small};
     gap: ${theme.spacings.xsmall};
+    margin-bottom: ${theme.spacings.xsmall};
   `}
 `;
 
@@ -44,6 +57,7 @@ export const Job_Description_Wrapper = styled.div`
     align-items: center;
     padding: 0 ${theme.spacings.small};
     width: 100%;
+    margin-bottom: ${theme.spacings.xsmall};
 
     & > p {
       font-weight: 700;
