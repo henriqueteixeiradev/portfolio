@@ -12,8 +12,8 @@ export function Jobs() {
         <S.Jobs_Headings_Wrapper>
           <Heading title="Jobs">
             <p>
-              &quot;Lembre-se que as pessoas podem tirar tudo de você, menos o
-              seu conhecimento&quot; <cite>(Albert Einstein)</cite>
+              &quot;O único homem que está isento de erros, é aquele que não
+              arrisca acertar.&quot; <cite>(Albert Einstein)</cite>
             </p>
           </Heading>
         </S.Jobs_Headings_Wrapper>

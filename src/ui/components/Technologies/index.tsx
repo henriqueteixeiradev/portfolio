@@ -14,7 +14,7 @@ export function Technologies() {
           <Heading title="Tecnologias">
             <p>
               &quot;Lembre-se que as pessoas podem tirar tudo de você, menos o
-              seu conhecimento&quot; <cite>(Albert Einstein)</cite>
+              seu conhecimento.&quot; <cite>(Albert Einstein)</cite>
             </p>
           </Heading>
 
