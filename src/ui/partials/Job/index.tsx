@@ -3,6 +3,7 @@ import Link from "next/link";
 import * as S from "./styled";
 
 import { JobsTypes } from "data/@types/jobs_models";
+import { useCountDate } from "data/hooks/useCountDate";
 
 export function Job({
   image,
@@ -11,6 +12,8 @@ export function Job({
   completion_date,
   technologies,
 }: JobsTypes) {
+  const { Time } = useCountDate(completion_date!);
+
   return (
     <Link href={url} target="_blank">
       <S.Job_Wrapper>
@@ -29,7 +32,7 @@ export function Job({
           >
             <rect width="24" height="24" rx="12" fill="#14FFEC" />
           </svg>
-          <small>{completion_date}</small>
+          <Time />
         </S.Job_Status_Wrapper>
 
         <S.Job_Description_Wrapper>
