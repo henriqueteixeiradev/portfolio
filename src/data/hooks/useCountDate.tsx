@@ -13,7 +13,9 @@ export const useCountDate = (date: string) => {
       return setResult(`há ${Math.floor(days / 31)} meses`);
     } else if (days > 365) {
       return setResult(
-        `há ${Math.floor(days / 365)} ano${days < 365 ? "" : "s"}`
+        `há ${Math.floor(days / 365)} ano${
+          Math.floor(days / 365) > 1 ? "s" : ""
+        }`
       );
     }
   }, [days]);
