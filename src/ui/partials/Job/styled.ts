@@ -7,6 +7,8 @@ export const Job_Wrapper = styled.div`
     padding-bottom: ${theme.spacings.small};
     background-color: ${theme.colors.dark_grey};
     border-radius: 0.8rem;
+    border: 1px dashed red;
+    min-height: 39rem;
 
     .border {
       width: 100%;

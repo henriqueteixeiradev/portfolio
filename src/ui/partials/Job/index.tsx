@@ -13,11 +13,10 @@ export function Job({
 }: JobsTypes) {
   return (
     <Link href={url} target="_blank">
-      
       <S.Job_Wrapper>
         <div className="border"></div>
         <S.Job_Image_Wrapper>
-          <Image src={image} alt="" width={371} height={172} />
+          <Image src={image.url} alt="" width={371} height={172} />
         </S.Job_Image_Wrapper>
 
         <S.Job_Status_Wrapper>

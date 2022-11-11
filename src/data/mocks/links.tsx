@@ -6,21 +6,21 @@ export const links: LinksTypes[] = [
   {
     id: 1,
     icon: github,
-    url: "",
+    url: "https://github.com/henriqueteixeiradev",
   },
   {
     id: 2,
     icon: instagram,
-    url: "",
+    url: "https://www.instagram.com/henrique_teixeira.dev/",
   },
   {
     id: 3,
     icon: linkedin,
-    url: "",
+    url: "https://www.linkedin.com/in/carlos-henrique-lucio-teixeira-7348b775/",
   },
   {
     id: 4,
     icon: behance,
-    url: "",
+    url: "https://www.behance.net/bellmontsistemaofc",
   },
 ];

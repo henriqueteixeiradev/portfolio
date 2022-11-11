@@ -1,6 +1,8 @@
 export type JobsTypes = {
-  id?: number;
-  image: string;
+  id?: string;
+  image: {
+    url: string;
+  };
   completion_date?: string;
   description: string;
   technologies: string[];
